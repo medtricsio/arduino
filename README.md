@@ -1,4 +1,4 @@
-# arduino
+# Arduino Uno/Nano or Bluno
 Reference Design 2 channel EKG  with Arduino Uno and Analog Device amplifier to generate RAW EKG data fed into Medtrics MaaS service
 Medtrics API can consumer raw input with given parameters of ADC sample frequency and scaling factor
 # Reference Design Spec:
@@ -8,6 +8,6 @@ Medtrics API can consumer raw input with given parameters of ADC sample frequenc
   * ADC sample frequency = 250Hz  
   ![Alt text](https://github.com/medtricsio/arduino/blob/master/schematic.jpg?raw=true "Schematics")
 
-# To collect data connect the USB to a PC with RS232
-e.g. in Ubuntu you can read directly from /dev/ttyUSB0  to a CSV file by command
-    cat /dev/ttyUSB0 | tee ekg.csv
+To collect data connect the USB to a PC with RS232
+   * e.g. in Ubuntu you can read directly from /dev/ttyUSB0  to a CSV file by command
+   * cat /dev/ttyUSB0 | tee ekg.csv
