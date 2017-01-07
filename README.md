@@ -12,3 +12,5 @@ Medtrics API can consumer raw input with given parameters of ADC sample frequenc
 To collect data connect the USB to a PC with RS232
    * e.g. in Ubuntu you can read directly from /dev/ttyUSB0  to a CSV file by command
    * cat /dev/ttyUSB0 | tee ekg.csv
+
+API endpoint would be published soon to process the ekg raw data
